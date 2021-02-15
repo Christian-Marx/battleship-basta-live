@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBattleshipCodingContest", "NBattleshipCodingContest\NBattleshipCodingContest.csproj", "{7CAD0B71-F12D-44E0-BE40-1A6E5C9E6FFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBattleshipCodingContest", "NBattleshipCodingContest\NBattleshipCodingContest.csproj", "{7CAD0B71-F12D-44E0-BE40-1A6E5C9E6FFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBattleshipCodingContest.Logic", "NBattleshipCodingContest.Logic\NBattleshipCodingContest.Logic.csproj", "{B55D0571-72C9-4E52-A99F-31765815582E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBattleshipCodingContest.Logic", "NBattleshipCodingContest.Logic\NBattleshipCodingContest.Logic.csproj", "{B55D0571-72C9-4E52-A99F-31765815582E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBattleshipCodingContest.Logic.Tests", "NBattleshipCodingContest.Logic.Tests\NBattleshipCodingContest.Logic.Tests.csproj", "{43126684-DEE3-4406-A7CF-C21CB07140CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBattleshipCodingContest.Logic.Tests", "NBattleshipCodingContest.Logic.Tests\NBattleshipCodingContest.Logic.Tests.csproj", "{43126684-DEE3-4406-A7CF-C21CB07140CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBattleshipCodingContest.PlayersGenerator", "NBattleshipCodingContest.PlayersGenerator\NBattleshipCodingContest.PlayersGenerator.csproj", "{094533BB-B94D-4AB6-84F2-A6628BA8D66E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBattleshipCodingContest.PlayersGenerator.Tests", "NBattleshipCodingContest.PlayersGenerator.Tests\NBattleshipCodingContest.PlayersGenerator.Tests.csproj", "{8E71F5C2-A72E-46B4-8696-D6355ECDFFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBattleshipCodingContest.Players", "NBattleshipCodingContest.Players\NBattleshipCodingContest.Players.csproj", "{017A68BE-4058-48BD-8388-ABB94BEE51C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBattleshipCodingContest.Players.Tests", "NBattleshipCodingContest.Players.Tests\NBattleshipCodingContest.Players.Tests.csproj", "{5F71E428-DC1C-4F35-B3F4-7083F7042323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,22 @@ Global
 		{43126684-DEE3-4406-A7CF-C21CB07140CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43126684-DEE3-4406-A7CF-C21CB07140CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43126684-DEE3-4406-A7CF-C21CB07140CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094533BB-B94D-4AB6-84F2-A6628BA8D66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094533BB-B94D-4AB6-84F2-A6628BA8D66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094533BB-B94D-4AB6-84F2-A6628BA8D66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094533BB-B94D-4AB6-84F2-A6628BA8D66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E71F5C2-A72E-46B4-8696-D6355ECDFFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E71F5C2-A72E-46B4-8696-D6355ECDFFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E71F5C2-A72E-46B4-8696-D6355ECDFFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E71F5C2-A72E-46B4-8696-D6355ECDFFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017A68BE-4058-48BD-8388-ABB94BEE51C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017A68BE-4058-48BD-8388-ABB94BEE51C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017A68BE-4058-48BD-8388-ABB94BEE51C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017A68BE-4058-48BD-8388-ABB94BEE51C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F71E428-DC1C-4F35-B3F4-7083F7042323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F71E428-DC1C-4F35-B3F4-7083F7042323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F71E428-DC1C-4F35-B3F4-7083F7042323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F71E428-DC1C-4F35-B3F4-7083F7042323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
